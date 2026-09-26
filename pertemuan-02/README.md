@@ -4,3 +4,4 @@ Membuat struktur awal emmet.html
 Membuat struktur header+main+footer di dalam elemen body menggunakan emmet abreviation
 Melengkapi header dan Navigasi menggunakan emmet abreviation untuk menampilkan fragment identifier #home, #about, #contact
 Melengkapi Konten Utama elemen main
+Melengkapi Footer
