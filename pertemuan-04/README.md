@@ -1,24 +1,15 @@
-# Pertemuan 3 - Formulir HTML dan CSS Dasar
-## Baseline
-- Menggunakan hasil P2 sebagai dasar pengembangan P3.
-- Menyalin `index.html` dan `img/foto-profil.jpg` ke `pertemuan-03/`.
-## Implementasi Formulir
-- Elemen form yang digunakan: [form,label,input,select,option]
-- Tipe input yang digunakan: [text,email,number,date,radio]
-- Atribut validasi yang digunakan: [min,mac,minlenght,maxlenght]
-## Pengujian GET dan POST
-- Hasil pengujian GET: [data formulir berhasil dikirim melalui url dan dapat terlihat pada address bar browser]
-- Contoh URL encoding yang ditemukan: [https://2622500054-hanny.github.io/2622500054-PWD-SI1J-2026-2027/pertemuan-03/index.html?nama=hanny%2Barfa&email=2622500054%40mahasiswa.atmaluhur.ac.id&semester=1&tanggal=2026-10-04&jenis_pesan=saran&minat=HTML&prodi=SI&pesan=bagus%2Bterima%2Bkasih]
-- Hasil pengujian POST: [data berhasil dikirim melalui metode post dan tidak ditampilkan pada url browser]
-## CSS Dasar
-- Selector elemen: [body,h1,p,form,dan input]
-- Selector class: [contaier,form-group,jdul]
-- Selector ID: [formulir dan nama]
-- Properti CSS dasar yang digunakan: [color,backround-color,margin,padding,border]
-## Pengujian dan Perbaikan
-- Galat yang ditemukan: [-]
-- Penyebab galat: [-]
-- Perbaikan yang dilakukan: [-]
-- Hasi pengujian ulang: [-]
-## GitHub Pages
-URL: .[(https://2622500054-hanny.github.io/2622500054-PWD-SI1J-2026-2027/pertemuan-03/)]
+# Pertemuan 4 - CSS3 Layout dan Responsive Web Design
+
+## Pengembangan
+- Perubahan yang dilakukan: Menambahkan file style.css untuk mengatur tampilan halaman Profil Mahasiswa pada index.html. Layout menggunakan CSS Grid pada elemen main, box-sizing: border-box untuk semua elemen, serta tampilan header, navigasi (Beranda, Tentang, Kontak), konten utama, dan footer yang responsif terhadap ukuran layar.
+- Commit dan push GitHub: Perubahan di-commit dengan pesan "Menambahkan CSS3 layout dan responsive web design pertemuan 4", lalu di-push ke branch main di GitHub.
+
+## Pengujian
+- Perangkat bergerak: Diuji menggunakan mode responsive pada DevTools Microsoft Edge dengan viewport 354 x 549 px. Layout tampil satu kolom, menu navigasi tersusun vertikal, teks terbaca jelas, gambar menyesuaikan lebar kartu, dan tidak ada scroll horizontal.
+- Desktop: Diuji dengan viewport 1366 x 768 px (ukuran layar penuh). Layout tampil rapi dan konten tertata sesuai rancangan.
+- Galat dan perbaikan: Tidak ditemukan galat tampilan pada pengujian. 
+- Validasi CSS: Divalidasi menggunakan W3C CSS Validator (jigsaw.w3.org/css-validator). Hasil: tidak ditemukan galat pada style.css.
+
+## Repositori
+URL GitHub: https://github.com/2622500054-hanny/2622500054-PWD-SI1J-2026-2027
+Isi README.md berdasarkan hasil pengembangan, pengujian, dan validasi yang benar - benar dilakukan.
