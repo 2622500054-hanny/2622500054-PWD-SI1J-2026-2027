@@ -41,6 +41,12 @@ nav a {
   text-decoration: none;
 }
 
+main {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+}
+
 section {
   width: 100%;
 }
@@ -114,6 +120,7 @@ section {
   padding: 20px;
   margin: 0;
   font-family: Arial, sans-serif;
+  grid-column: 1 / -1;
 }
 
 #contact h2 {
@@ -171,4 +178,22 @@ footer {
 }
 footer p {
   margin: 0;
+}
+
+@media (min-width: 768px) {
+  /* aturan CSS untuk viewport dengan lebar minimal 768px */
+  main {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  nav ul {
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 16px;
+  }
+
+  #contact {
+    grid-column: 1 / -1;
+  }
 }
