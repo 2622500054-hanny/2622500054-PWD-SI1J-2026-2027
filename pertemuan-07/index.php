@@ -31,7 +31,7 @@ const NAMA_MATA_KULIAH = "Pemrograman Web Dasar";
 <section id="home">
 <h2>Selamat Datang</h2>
 <p>Halo, saya <strong><?php echo $namaMahasiswa; ?></strong>. Saya sedang mempelajari matakuliah <strong><?php echo NAMA_MATA_KULIAH; ?></strong> pada tahun akademik <?php echo $tahunAkademik; ?>.</p>
-<img src="img/foto_profil.jpeg" alt="Foto profil Hanny Arfa" width="180" style="border-radius: 5px;" />
+<img src="img/img/foto_profil.jpeg" alt="Foto profil Hanny Arfa" width="180" style="border-radius: 5px;" />
 </section>
 
 <section id="about">
