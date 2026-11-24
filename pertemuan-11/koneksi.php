@@ -1,15 +1,11 @@
 <?php
-// Konfigurasi koneksi ke basis data MySQL.
 $host = "localhost";
 $user = "root";
-$password = "2622500054";
-$database = "db_pwd_2622500054";
+$pass = "";
+$db   = "db_pwd_2622500054";
 
-// Membuat koneksi PHP dengan MySQL menggunakan MySQLi.
-mysqli_report(MYSQLI_REPORT_OFF);
-$koneksi = mysqli_connect($host, $user, $password, $database);
+$koneksi = mysqli_connect($host, $user, $pass, $db);
 
-// Memeriksa keberhasilan koneksi.
 if (!$koneksi) {
-    die("Koneksi ke basis data gagal.");
+    die("Koneksi gagal: " . mysqli_connect_error());
 }
