@@ -1,18 +1,15 @@
 <?php
-require_once("fungsi.php");
-require_once("koneksi.php"); // P11
+// Konfigurasi koneksi ke basis data MySQL.
+$host = "localhost";
+$user = "root";
+$password = "2622500054";
+$database = "db_pwd_2622500054";
 
-// P11: Mengambil data kontak dari basis data menggunakan operasi READ.
-$sql = "SELECT * FROM tbl_kontak_2622500054";
-$hasil = mysqli_query($koneksi, $sql);
+// Membuat koneksi PHP dengan MySQL menggunakan MySQLi.
+mysqli_report(MYSQLI_REPORT_OFF);
+$koneksi = mysqli_connect($host, $user, $password, $database);
 
-// P11: Memeriksa keberhasilan kueri SELECT.
-if (!$hasil) {
-    die("Kueri SELECT gagal dijalankan.");
-}
-
-// P11: Mengambil hasil kueri sebagai larik asosiatif.
-$dataKontak = [];
-while ($baris = mysqli_fetch_assoc($hasil)) {
-    $dataKontak[] = $baris;
+// Memeriksa keberhasilan koneksi.
+if (!$koneksi) {
+    die("Koneksi ke basis data gagal.");
 }
